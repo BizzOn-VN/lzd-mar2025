@@ -98,6 +98,12 @@ img{
   background-color: #E94595;
   padding-bottom: 4%;
 }
+.page-main .md-tagline{
+  position: absolute;
+  left: 26.7%;
+    top: 20.5%;
+    width: 50%;
+}
 .page-main .md-content{
   width: 60%;
   display: table;
@@ -163,6 +169,8 @@ img{
   /*background: url(../images/bg-main-2.png) no-repeat;
   background-size: 100% auto;
   background-position: bottom;*/
+  position: relative;
+  z-index: 2;
 }
 .bg-main-2{
   position: absolute;
@@ -377,5 +385,11 @@ p.error{
   }
   .main-popup form input::placeholder{
     font-size: calc(8px + 1vw);
+  }
+  .page-main .md-tagline{
+    position: absolute;
+    left: 18.7%;
+    top: 15.5%;
+    width: 67.5%;
   }
 }
