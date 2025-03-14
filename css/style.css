@@ -42,7 +42,7 @@ ul li {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
-  font-family: 'EuclidCircularAVN-Regular';
+  font-family: 'EuclidCircularAVN-Bold';
   margin: 0px 0px 0.5rem 0px;
 }
 
@@ -78,11 +78,12 @@ input[type=submit] {
     url(../fonts/EuclidCircularAVN-Light/EuclidCircularAVN-Light.ttf) format("ttf"),
      url(../fonts/EuclidCircularAVN-Light/EuclidCircularAVN-Light.woff) format("woff"); }
 @font-face {
-  font-family: '1FTVDesignerRegular';
-  src: url(../fonts/1FTVDesignerRegular/1FTVDesignerRegular.woff2) format("woff2"),
-   url(../fonts/1FTVDesignerRegular/1FTVDesignerRegular.eot) format("eot"),
-    url(../fonts/1FTVDesignerRegular/1FTVDesignerRegular.ttf) format("ttf"),
-     url(../fonts/1FTVDesignerRegular/1FTVDesignerRegular.woff) format("woff"); }
+  font-family: 'EuclidCircularAVN-Medium';
+  src: url(../fonts/EuclidCircularAVN-Medium/EuclidCircularAVN-Medium.woff2) format("woff2"),
+   url(../fonts/EuclidCircularAVN-Medium/EuclidCircularAVN-Medium.eot) format("eot"),
+    url(../fonts/EuclidCircularAVN-Medium/EuclidCircularAVN-Medium.ttf) format("ttf"),
+     url(../fonts/EuclidCircularAVN-Medium/EuclidCircularAVN-Medium.woff) format("woff"); }
+
 img{
   width: 100%;
 }
@@ -108,7 +109,7 @@ img{
 .page-main .md-content p{
   text-align: center;
   color: #B9165C;
-  font-weight: 700;
+  font-family: 'EuclidCircularAVN-Bold';
   font-size: calc(10px + 2vw);
   margin-bottom: 20px;
   animation: md-title infinite 5s;
@@ -174,12 +175,11 @@ img{
   margin-bottom: 25px;
 }
 .md-footer p span{
-  font-weight: 700;
+  font-family: 'EuclidCircularAVN-Bold';
 }
 .md-footer h6{
   font-size: calc(10px + 1vw);
   margin-bottom: 3px;
-  font-weight: 700;
 }
 .md-footer a{
   display: block;
@@ -204,7 +204,7 @@ img{
 .main-popup h6{
   text-align: center;
   color: #B9165C;
-  font-weight: 700;
+  font-family: 'EuclidCircularAVN-Bold';
   font-size: calc(10px + 2vw);
   margin-bottom: 10px;
 }
@@ -212,9 +212,9 @@ img{
   display: block;
   text-align: center;
   color: #e93668;
-  font-weight: 700;
   margin-bottom: 10px;
   font-size: calc(8px + 1vw);
+  font-family: 'EuclidCircularAVN-Bold';
 }
 .main-popup form .md-row{
   margin-bottom: 20px;
@@ -224,16 +224,19 @@ img{
   border: none;
   border-radius: 15px;
   background: #FFF;
-  padding: 15px 30px;
+  padding: 15px 20px;
 }
 .main-popup form input[type='button']{
   width: auto;
   background: #e93668;
-  padding: 10px 30px 5px 30px;
+  padding: 5px 30px;
   color: #FFF;
   display: table;
   margin: 0 auto;
-
+  font-family: 'EuclidCircularAVN-Medium';
+}
+.main-popup form input::placeholder{
+  font-size: calc(2px + 1vw);
 }
 .main-popup form p{
   text-align: center;
@@ -248,6 +251,19 @@ img{
 .main-popup-2 form label{
   text-align: left;
 }
+.main-popup form p{
+  color: #333;
+}
+.main-popup-2 form p span{
+  font-family: 'EuclidCircularAVN-Medium';
+}
+.main-popup-2 h6{
+  margin-bottom: 0px;
+}
+.main-popup p{
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 .md-popup-3{
   display: none;
@@ -259,7 +275,7 @@ img{
   color: #B9165C;
   text-align: center;
   margin-top: 20px;
-  font-weight: 700;
+  font-family: 'EuclidCircularAVN-Bold';
   font-size: calc(10px + 1vw);
 }
 .fancybox-is-open .fancybox-bg{
@@ -320,7 +336,7 @@ p.error{
     padding: 30px 10%;
   }
   .main-popup h6{
-    font-size: calc(20px + 2vw);
+    font-size: calc(17px + 2vw);
   }
   .main-popup form label{
     font-size: calc(15px + 1vw);
@@ -358,5 +374,8 @@ p.error{
   }
   p.error{
     font-size: calc(6px + 1vw);
+  }
+  .main-popup form input::placeholder{
+    font-size: calc(8px + 1vw);
   }
 }

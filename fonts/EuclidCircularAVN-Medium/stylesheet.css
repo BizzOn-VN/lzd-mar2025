@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'EuclidCircularAVN';
+    src: url('EuclidCircularAVN-Medium.eot');
+    src: url('EuclidCircularAVN-Medium.eot?#iefix') format('embedded-opentype'),
+        url('EuclidCircularAVN-Medium.woff2') format('woff2'),
+        url('EuclidCircularAVN-Medium.woff') format('woff'),
+        url('EuclidCircularAVN-Medium.ttf') format('truetype'),
+        url('EuclidCircularAVN-Medium.svg#EuclidCircularAVN-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
