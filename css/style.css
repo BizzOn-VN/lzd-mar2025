@@ -14,7 +14,8 @@ body {
   font-family: 'EuclidCircularAVN-Regular';
   color: #FFF;
   line-height: 1.2;
-  background: #FFF;
+  background: #E94595;
+  position: relative;
 }
 
 a {
@@ -176,7 +177,14 @@ img{
   position: absolute;
   left: 0%;
   bottom: 0%;
-  width: 100%;
+  width: 33%;
+  z-index: 1;
+}
+.bg-main-3{
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  width: 20%;
   z-index: 1;
 }
 .md-footer p{
@@ -391,5 +399,11 @@ p.error{
     left: 18.7%;
     top: 15.5%;
     width: 67.5%;
+  }
+}
+
+@media screen and (min-height: 1024px) and (min-width: 768px){
+  body{
+    height: 100vh;
   }
 }
