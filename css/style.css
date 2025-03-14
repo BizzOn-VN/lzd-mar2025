@@ -244,7 +244,7 @@ img{
   font-family: 'EuclidCircularAVN-Medium';
 }
 .main-popup form input::placeholder{
-  font-size: calc(2px + 1vw);
+  font-size: calc(2px + 0.7vw);
 }
 .main-popup form p{
   text-align: center;
