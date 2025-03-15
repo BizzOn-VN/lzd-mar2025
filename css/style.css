@@ -200,9 +200,10 @@ img{
 .md-footer a{
   display: block;
   color: #FFF;
-  font-style: italic;
   text-decoration: underline;
   margin-bottom: 5px;
+  font-family: 'EuclidCircularAVN-Light';
+  font-size: calc(2px + 1vw);
 }
 .main-popup{
   display: none;
@@ -271,7 +272,7 @@ img{
   color: #333;
 }
 .main-popup-2 form p span{
-  font-family: 'EuclidCircularAVN-Medium';
+  font-family: 'EuclidCircularAVN-Bold';
 }
 .main-popup-2 h6{
   margin-bottom: 0px;
@@ -399,6 +400,10 @@ p.error{
     left: 18.7%;
     top: 15.5%;
     width: 67.5%;
+  }
+  .md-footer a{
+    font-size: calc(6px + 1vw);
+    margin-bottom: 0px;
   }
 }
 
