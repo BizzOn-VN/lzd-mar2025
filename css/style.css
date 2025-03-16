@@ -320,7 +320,7 @@ p.error{
   margin-top: 5px;
   font-size: calc(2px + 0.8vw);
   font-style: italic;
-  color: #e93668;
+  color: #e93668 !important;
 }
 @media screen and (max-width: 767px){
   .page-main{
