@@ -325,19 +325,9 @@ p.error{
   font-style: italic;
   color: #e93668 !important;
 }
-.md-desktop{
-  display: block !important;
-}
-.md-mobile{
-  display: none !important;
-}
+
 @media screen and (max-width: 767px){
-  .md-desktop{
-    display: none !important;
-  }
-  .md-mobile{
-    display: block !important;
-  }
+
   .page-main{
     background-image: url(../images/bg-main-mb.png);
     background-size: 100% auto;
@@ -437,7 +427,7 @@ p.error{
     display: none;
   }*/
   .md-footer p{
-    width: 70%;
+    width: 100%;
   }
 }
 
