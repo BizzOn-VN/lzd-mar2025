@@ -200,7 +200,7 @@ img{
   margin-bottom: 3px;
 }
 .md-footer a{
-  display: block;
+  display: inline-block;
   color: #FFF;
   text-decoration: underline;
   margin-bottom: 0px;
