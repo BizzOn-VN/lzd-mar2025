@@ -248,10 +248,11 @@ img{
 .main-popup form input[type='button']{
   width: auto;
   background: #e93668;
-  padding: 5px 8%;
+  padding: 5px 10%;
   color: #FFF;
   display: table;
   margin: 0 auto;
+  font-size: calc(8px + 1vw);
   font-family: 'EuclidCircularAVN-Medium';
   cursor: pointer;
 }
@@ -324,7 +325,19 @@ p.error{
   font-style: italic;
   color: #e93668 !important;
 }
+.md-desktop{
+  display: block !important;
+}
+.md-mobile{
+  display: none !important;
+}
 @media screen and (max-width: 767px){
+  .md-desktop{
+    display: none !important;
+  }
+  .md-mobile{
+    display: block !important;
+  }
   .page-main{
     background-image: url(../images/bg-main-mb.png);
     background-size: 100% auto;
@@ -414,7 +427,8 @@ p.error{
     margin-bottom: 0px;
   }
   .main-popup form input[type='button']{
-    padding: 5px 10%;
+    padding: 5px 15%;
+    font-size: calc(15px + 1vw);
   }
   .bg-main-2{
     width: 28%;
