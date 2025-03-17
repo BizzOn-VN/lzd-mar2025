@@ -202,10 +202,13 @@ img{
 .md-footer a{
   display: inline-block;
   color: #FFF;
-  text-decoration: underline;
+  
   margin-bottom: 0px;
   font-family: 'EuclidCircularAVN-Light';
   font-size: calc(2px + 1vw);
+}
+.md-footer a span{
+  text-decoration: underline;
 }
 .main-popup{
   display: none;
