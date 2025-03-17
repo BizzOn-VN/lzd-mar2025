@@ -248,11 +248,11 @@ img{
 .main-popup form input[type='button']{
   width: auto;
   background: #e93668;
-  padding: 5px 10%;
+  padding: 8px 15%;
   color: #FFF;
   display: table;
   margin: 0 auto;
-  font-size: calc(8px + 1vw);
+  font-size: calc(12px + 1vw);
   font-family: 'EuclidCircularAVN-Medium';
   cursor: pointer;
 }
@@ -427,8 +427,8 @@ p.error{
     margin-bottom: 0px;
   }
   .main-popup form input[type='button']{
-    padding: 5px 15%;
-    font-size: calc(15px + 1vw);
+    padding: 8px 20%;
+    font-size: calc(20px + 1vw);
   }
   .bg-main-2{
     width: 28%;
