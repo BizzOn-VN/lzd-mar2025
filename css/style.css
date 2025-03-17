@@ -329,6 +329,7 @@ p.error{
     background-image: url(../images/bg-main-mb.png);
     background-size: 100% auto;
     background-color: #E94595;
+    padding-bottom: 8%;
   }
   .page-main .md-content{
     padding-top: 62%;
@@ -416,11 +417,11 @@ p.error{
     padding: 5px 10%;
   }
   .bg-main-2{
-    display: none;
+    width: 28%;
   }
-  .bg-main-3{
+  /*.bg-main-3{
     display: none;
-  }
+  }*/
   .md-footer p{
     width: 70%;
   }
