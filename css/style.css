@@ -284,6 +284,28 @@ img{
 }
 .main-popup-2 form p span{
   font-family: 'EuclidCircularAVN-Bold';
+  position: relative;
+  padding-bottom: 5px;
+}
+.main-popup-2 form p {
+  position: relative;
+}
+.main-popup-2 form p .md-tooltip{
+/*  width: auto;*/
+  font-size: calc(2px + 0.7vw);
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 3px 5px;
+  visibility:hidden ;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+}
+.main-popup-2 form p .active-tt{
+  visibility: visible;
 }
 .main-popup-2 h6{
   margin-bottom: 0px;
@@ -431,6 +453,12 @@ p.error{
   }*/
   .md-footer p{
     width: 100%;
+  }
+  .main-popup-2 form p .md-tooltip{
+    font-size: calc(6px + 1vw);
+    left: auto;
+    transform: translateX(0%);
+    right: 0%;
   }
 }
 
